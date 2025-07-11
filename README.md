@@ -31,16 +31,9 @@
 
 ## 🧱 System Architecture
 
-```plaintext
-+-------------+        WiFi         +--------------------+        API         +----------------+
-| ESP32-CAM   | ------------------> | Node.js Backend    | ----------------> | MongoDB        |
-| (Face Scan) |                     | (REST API, Auth)   |                   | (Database)     |
-+-------------+                    |                    |                   +----------------+
-        |                          +--------------------+                          |
-        |                                                                       Admin Panel
-        |                                                                      (React.js UI)
-        |                                                                      Real-time logs
-        v
-Notification to:
-✅ School Staff  
-✅ Parents/Guardians
+![SmartPICK Architecture Diagram](System_Architecture_Digram.png)
+
+## 🧱 System Flow Digram
+
+![SmartPICK Flow Diagram](System_Flow_Digram.png)
+
